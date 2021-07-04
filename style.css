@@ -1,0 +1,993 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+.header1{
+    height: 5vh;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header1 ul{
+    display: flex;
+    padding: 0px 40px;
+   margin-top: -20px;
+}
+.header1 li
+{
+    list-style: none;
+   
+
+}
+.header1 ul li a{
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    border-right: 1px solid white;
+    transition: all 0.50ms ease-in-out;   
+}
+.header1 ul li a:hover{
+    font-weight: 500;
+}
+.icons{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0px 20px;
+    margin-right: 20px;
+}
+.icons i{
+    padding: 0px 15px;
+    border-right: 1px solid white;
+    color: white;
+}
+.header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.header2 .logo{
+    letter-spacing: 4px;
+}
+.header2 input{
+    padding: 5px 70px;
+}
+.header2 i{
+    background: black;
+    padding: 9px;
+    color: white;
+}
+.header3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    background: black;
+    height: 7vh;
+}
+.header3 ul{
+    display: flex;
+    padding: 10px 30px;
+
+}
+.header3 ul li{
+    list-style: none;
+}
+.header3 ul li a{
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+}
+.header3 ul li a:hover{
+    background: white;
+    color: black;
+
+}
+.main
+{   
+   
+    height: 530px;
+    width: 1355px;
+    margin-top: 0px;
+    background: rgb(221, 170, 170);
+}
+.main img{
+   height: 500px;
+   margin-left: 600px;
+   margin-top: 30px;
+}
+.name
+{
+    margin-top: -300px;
+    margin-left: 50px;
+}
+.name h1{
+    font-size: 60px;
+}
+.name p{
+    font-size: 20px;
+}
+.button1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+.button1 a{
+    background: black;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+}
+.button1 a:hover{
+    background-color: white;
+    color: black;
+}
+span{
+    
+    color: rgb(250, 125, 125);
+    font-weight: bolder;
+    
+}
+.category {
+    margin-top: 250px;
+    width: 100%;
+    height: 70vh;
+
+ 
+}
+.category h1{
+    margin-left: 40px;
+    text-align: center;
+}
+.star{
+    margin-left: 40px;
+    text-align: center;
+    color: rgb(250, 125, 125);
+    font-weight: bolder;
+}
+
+
+.category-content
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 0px 0px;
+}
+.inside-content
+{
+   
+    display: flex;
+    padding: 10px 0px;
+  
+
+}
+.inside-content img{
+   height: 300px;
+}
+.name1{
+    margin-top: -200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    padding: 10px 0px;
+ 
+   
+}
+.name1 h4{
+    background: black;
+    color: white;
+    padding: 10px 40px;
+    cursor: pointer;
+    transition: all 500ms ease-in;
+}
+.name1 h4:hover{
+   transform: scale(1.2);
+    cursor: pointer;
+}
+
+.mens-collection
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 90px;
+
+}
+.mens{
+    margin-top: 250px;
+}
+.mens h1{
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+
+
+
+
+.star1{
+    margin-left: 40px;
+    color: rgb(250, 125, 125);
+    font-weight: bolder;
+}
+.inside-mens{
+   
+
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+}
+
+.inside-mens img
+{   margin-top: 50px;
+    height: 255px;
+   
+}
+
+.inside-mens img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 6px -6px black;
+    cursor: pointer;
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 70px;
+}
+.about-product h1{
+    font-size: 20px;
+}
+.c{
+       
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 10px;
+padding: 10px 70px;
+}
+.c a:hover{
+    background-color: rgb(250, 125, 125);
+    color: white;
+}
+.btn1 a{
+    
+    text-decoration: none;
+    border-radius: 40px;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+strike{
+    color: rgb(250, 125, 125);
+    font-weight: bolder;
+    
+}
+.mensbtn{
+    margin-top: 80px;
+    text-align: center;
+}
+.mensbtn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(250, 125, 125);
+    color: black;
+    font-weight: 500 ;
+}
+.mensbtn a:hover{
+    background: black;
+    color: white;
+    
+}
+.womens{
+    margin-top: 30px;
+    
+    margin-left: 40px;
+}
+.womens h1{
+    font-size: 20px;
+}
+.women-container{
+    margin-top: 90px;
+    min-width: 1000px;
+    padding: 10px 90px;
+
+}
+.inside-womencontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.women-images img{
+    height: 255px;
+}
+.women-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px black;
+}
+.women-images{
+    text-align: center;
+    color: black;
+}
+.women-images h1{
+    font-size: 20px;
+}
+.btn3{
+    margin-top: 20px;
+
+}
+.btn3 a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-weight: normal ;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.btn3 a:hover{
+    background-color: rgb(250, 125, 125);
+    color: white;
+}
+.womensbtn{
+    margin-top: 80px;
+    text-align: center;
+}
+.womensbtn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(250, 125, 125);
+    color: black;
+    font-weight: 500 ;
+}
+.womensbtn a:hover{
+    background: black;
+    color: white;
+    
+}
+
+
+/*bags*/
+
+.bags{
+    margin-top: 70px;
+    
+    margin-left: 40px;
+}
+.bags h1{
+    font-size: 20px;
+}
+.bag-container{
+    margin-top: 90px;
+    min-width: 1000px;
+    padding: 10px 70px;
+
+}
+.inside-bagcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bag-images img{
+    height: 255px;
+}
+.bag-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 0 8px 6px -6px black;
+}
+.bag-images{
+    text-align: center;
+    color: black;
+}
+.bag-images h1{
+    font-size: 20px;
+  
+}
+.btn3{
+    margin-top: 20px;
+
+}
+.btn3 a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.bagbtn{
+    margin-top: 80px;
+    text-align: center;
+}
+.bagbtn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(250, 125, 125);
+    color: black;
+    font-weight: 500 ;
+}
+.bagbtn a:hover{
+    
+        background: black;
+        color: white;
+        
+    
+}
+/*bags ends*/
+
+
+
+/*shoes starts*/
+
+
+.shoe{
+    margin-top: 70px;
+    
+    margin-left: 40px;
+}
+.shoe h1{
+    font-size: 20px;
+}
+.shoe-container{
+    margin-top: 90px;
+    min-width: 1000px;
+    padding: 10px 0px;
+
+}
+.inside-shoecontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shoe-images img{
+    height: 240px;
+}
+.shoe-images img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.shoe-images{
+    text-align: center;
+    color: black;
+}
+.shoe-images h1{
+    font-size: 20px;
+  
+}
+.btn3{
+    margin-top: 20px;
+
+}
+.btn3 a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.shoebtn{
+    margin-top: 80px;
+    text-align: center;
+}
+.shoebtn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(250, 125, 125);
+    color: black;
+    font-weight: 500 ;
+}
+.shoebtn a:hover{
+    
+        background: black;
+        color: white;
+        
+
+}
+/*shoes */
+
+
+/*accesories starts*/
+
+
+.accesories{
+    margin-top: 70px;
+    
+    margin-left: 40px;
+}
+.accesories h1{
+    font-size: 20px;
+}
+.accesories-container{
+    margin-top: 90px;
+    min-width: 1000px;
+    padding: 10px 0px;
+
+}
+.inside-accesoriescontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accesories-images img{
+    height: 220px;
+    transition: all 0.90 ease-in;
+    
+}
+.accesories-images img:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+}
+.accesories-images{
+    text-align: center;
+    color: black;
+}
+.accesories-images h1{
+    font-size: 20px;
+  
+}
+.btn3{
+    margin-top: 20px;
+
+}
+.btn3 a{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+.accesoriesbtn{
+    margin-top: 80px;
+    text-align: center;
+}
+.accesoriesbtn a{
+    text-decoration: none;
+    padding: 10px 40px;
+    background: rgb(250, 125, 125);
+    color: black;
+    font-weight: 500 ;
+}
+.accesoriesbtn a:hover{
+        background: black;
+        color: white;
+}
+
+/*accessories ends */
+
+
+/*our brands starts*/
+.ourbrands
+
+{
+    margin-top: 50px;
+    padding: 10px 100px;
+}
+
+.ourbrands h1{
+    text-align: center;
+    margin-top: 80px;
+    
+}
+.star2{
+    text-align: center;
+color: rgb(250, 125, 125);
+}
+.inside-brands{
+
+  margin-top: 100px;
+  box-shadow: 5px 5px 5px 5px rgb(125, 129, 129);
+  
+}
+.brand-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.brand-images img{
+    padding: 0px 10px;
+}
+/*our brands ends*/
+
+
+/*News letter starts*/
+.news-letter{
+    margin-top: 90px;
+    
+}
+
+.inside-newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 150px;
+  
+  
+}
+.inside-newsletter p{
+    font-weight: 500;
+}
+form input{
+  padding: 8px 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+button
+{
+    padding: 6px 40px;
+    background: black;
+    color: white;
+}
+
+
+
+
+/* News letter ends*/
+.services{
+    margin-top: 90px;
+    padding: 10px 0px;
+  
+}
+.services h1{
+    margin-left: 40px;
+    font-size: 20px;
+}
+.inside-services{
+     margin-top: 90px;
+     min-width: 1000px;
+     padding: 10px 120px;
+  
+     
+}
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(125, 125, 125);
+}
+.services-offer img{
+    width: 160px;
+
+}
+
+.footer{
+    height: 15vh;
+    margin-top: 90px;
+    background: black;
+    color: white;
+    line-height: 2;
+    text-align: center;
+    padding: 20px 0px;
+}
+.footer-icons i{
+    padding: 10px 10px;
+}
+.footer-icons i:hover{
+    color: rgb(250, 125, 125);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
